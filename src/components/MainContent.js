@@ -1,12 +1,12 @@
-const MainContent = (props) => {
+const MainContent = ({ title, titleDescription, description }) => {
   return (
     <div className="box">
       <div className="title">
-        <h3>{props.title}</h3>
-        <p>{props.titleDescription}</p>
+        <h3>{title}</h3>
+        <p>{titleDescription}</p>
       </div>
       <div className="img"></div>
-      <div className="description">{props.description}</div>
+      <div className="description">{description}</div>
     </div>
   );
 };

@@ -1,9 +1,9 @@
-const SideContent = (props) => {
+const SideContent = ({ title, description }) => {
   return (
     <div className="sideContent">
-      <h3>{props.title}</h3>
+      <h3>{title}</h3>
       <div className="img"></div>
-      <p>{props.description}</p>
+      <p>{description}</p>
     </div>
   );
 };
